@@ -95,6 +95,5 @@ def output_country_t_incr_list():
     df = pd.DataFrame(data=[countries, warming, warming_var, region_list]).T
     df.columns = ['Country', 'Warming_since_1960','Warming_since_1960_uncertainty','Region']
     df = df.set_index('Country')
-    df.to_csv('country_t_incr_list.csv')
-
+    df.to_csv('../data_files/country_t_incr_list.csv')
 
