@@ -4,8 +4,8 @@ This is a modified script (based on webscraper_country.py from Justin) to
 get the warming temperature since 1960 data for a list of countries
 http://berkeleyearth.lbl.gov/country-list/
 
-by Nan Li on Mon Nov 15 2021
-
+Created on Mon Nov 15 2021
+Authors: Nan Li, Justin To
 """
 import re
 import pandas as pd
