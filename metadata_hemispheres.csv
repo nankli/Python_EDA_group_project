@@ -1,0 +1,3 @@
+Hemisphere,Baseline_temp,Baseline_temp_uncertainty,Jan_temp,Jan_uncertainty,Feb_temp,Feb_uncertainty,Mar_temp,Mar_uncertainty,Apr_temp,Apr_uncertainty,May_temp,May_uncertainty,Jun_temp,Jun_uncertainty,Jul_temp,Jul_uncertainty,Aug_temp,Aug_uncertainty,Sep_temp,Sep_uncertainty,Oct_temp,Oct_uncertainty,Nov_temp,Nov_uncertainty,Dec_temp,Dec_uncertainty
+northern,10.13,0.05,-2.06,0.09,-0.04,0.08,4.57,0.07,10.35,0.06,15.74,0.07,19.67,0.09,21.32,0.08,20.21,0.07,16.63,0.07,10.99,0.07,4.52,0.06,-0.38,0.08
+southern,16.84,0.07,20.81,0.09,20.1,0.08,18.76,0.08,16.6,0.07,14.57,0.1,12.81,0.1,12.34,0.09,13.5,0.08,15.48,0.07,17.41,0.08,19.3,0.09,20.44,0.11
