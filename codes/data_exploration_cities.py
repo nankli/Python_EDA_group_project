@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-city_list = pd.read_csv('largest_city_list.csv')
-metadata = pd.read_csv('metadata_largest_city.csv', index_col = 'City')
+city_list = pd.read_csv('../data_files/largest_city_list.csv')
+metadata = pd.read_csv('../data_files/metadata_largest_city.csv', index_col = 'City')
 
 
 def retrieve_city_data():

@@ -114,7 +114,7 @@ for city in duplicated_cities:
         largest_cities[row_num] = (city + str(count), largest_cities[row_num][1])
         count += 1
 
-cities_df.to_csv('largest_city_list.csv')
+cities_df.to_csv('../data_files/largest_city_list.csv')
     
 # ------------------
 # Part B: This part saves the text files to the local drive and also prepares a csv.
@@ -163,7 +163,7 @@ def generate_city_csv():
                 new_data = pd.DataFrame(data=[s], columns=col_names)
                 df = pd.concat([df, new_data], ignore_index=True)
 
-        filename = city + '.csv'
+        filename = '../data_files/' + city + '.csv'
 
         df = df.set_index('Year')
         df.to_csv(filename)
@@ -316,6 +316,6 @@ def generate_metadata_csv():
         df = pd.concat([df, new_df], ignore_index=True)
         
     # outputs the data frame to a csv  
-    filename = 'metadata_largest_city.csv'
+    filename = '../data_files/metadata_largest_city.csv'
     df = df.set_index('City')
     df.to_csv(filename)

@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-city_list = pd.read_csv('major_city_list.csv')
-metadata = pd.read_csv('metadata_city.csv', index_col = 'City')
+city_list = pd.read_csv('../data_files/major_city_list.csv')
+metadata = pd.read_csv('../data_files/metadata_city.csv', index_col = 'City')
 
 
 def retrieve_city_data():
@@ -20,7 +20,7 @@ def retrieve_city_data():
     city_data = {}
     
     for city in city_list.City:
-        filename = city + '.csv'
+        filename = '../data_files/' + city + '.csv'
         city_data.update({city: pd.read_csv(filename)})
     
     return city_data

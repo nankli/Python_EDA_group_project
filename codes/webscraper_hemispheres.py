@@ -67,7 +67,7 @@ def generate_hemispheres_csv():
                 new_data = pd.DataFrame(data=[s], columns=col_names)
                 df = pd.concat([df, new_data], ignore_index=True)
 
-        filename = hemisphere + '.csv'
+        filename = '../data_files/' + hemisphere + '.csv'
 
         df = df.set_index('Year')
         df.to_csv(filename)
@@ -202,6 +202,6 @@ def generate_metadata_csv():
         df = pd.concat([df, new_df], ignore_index=True)
         
     # outputs the data frame to a csv  
-    filename = 'metadata_hemispheres.csv'
+    filename = '../data_files/metadata_hemispheres.csv'
     df = df.set_index('Hemisphere')
     df.to_csv(filename)
